@@ -1,7 +1,7 @@
-.metadata
-.classpath
-.project
-.recommenders
-.settings
-target
-Servers
+.metadata/
+.classpath/
+.project/
+.recommenders/
+.settings/
+target/
+Servers/
