@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/config/booking-query.properties=UTF-8
+encoding//src/config/infoDetail-query.properties=UTF-8
+encoding//src/config/point-query.properties=UTF-8
+encoding//src/config/program-query.properties=UTF-8
+encoding//src/config/qna-query.properties=UTF-8
+encoding//src/config/review-query.properties=UTF-8
+encoding//src/config/rlike-query.properties=UTF-8
+encoding//src/config/wishlist-query.properties=UTF-8
