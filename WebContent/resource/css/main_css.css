@@ -1,0 +1,321 @@
+@charset "UTF-8";
+
+section {
+	width: 100%;
+}
+
+#mainscreen {
+	width: 100%;
+	height: 400px;
+	background-color: rgb(215, 212, 240);
+}
+
+#searchbar {
+	width: 800px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+	top: 110px;
+	text-align: center;
+}
+
+#searchbar select {
+	display: inline-block;
+	width: 150px;
+	margin-right: 10px;
+	padding: 1em 3em;
+	border: 1px solid #999;
+	border-radius: 30px;
+	font-size: 15px;
+	background: url("/Nonda/resource/image/select.jpg") no-repeat 95% 50%;
+	background-color: #ffffff;
+	-webkit-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+}
+
+#main_submenu {
+	width: 932px;
+	height: 154px;
+	margin: 0 auto;
+	padding: 39px 0 0 68px;
+	position: relative;
+	top: 223px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07);
+}
+
+#main_submenu img {
+	width: 90px;
+	margin-right: 100px;
+	cursor: pointer;
+}
+
+#main_submenu img:nth-last-child(1) {
+	margin-right: 0px;
+}
+
+#radio-pillbox {
+	position: relative;
+	top: 20px;
+	left: 15px;
+	display: inline-block;
+	height: 50px;
+	width: 300px;
+	border: 0;
+	border-radius: 75px;
+	font-size: 1em;
+	color: #000000;
+	background: linear-gradient(100deg, #0000ff 0%, #e90075 100%);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0
+		rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#radio-pillbox radiogroup {
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+#radio-pillbox radiogroup div {
+	width: 100%;
+	position: relative;
+}
+
+#radio-pillbox radiogroup div input {
+	-webkit-appearance: inherit;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	outline: 0;
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+#radio-pillbox radiogroup div label {
+	position: absolute;
+	top: 50%;
+	line-height: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #ffffff;
+}
+
+#radio-pillbox label:after {
+	content: "\2714";
+	display: inline-block;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045)
+		100ms, -webkit-transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	transition: margin 250ms cubic-bezier(0.6, -0.28, 0.735, 0.045) 100ms,
+		transform 250ms cubic-bezier(0.895, 0.03, 0.685, 0.22);
+}
+
+#radio-pillbox input:checked+label:after {
+	margin-left: 12px;
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-transition: -webkit-transform 500ms
+		cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms, margin 500ms,
+		-webkit-transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+	transition: transform 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275)
+		250ms, margin 500ms, transform 500ms
+		cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+}
+
+#searchbtn {
+	width: 75px;
+	position: relative;
+	top: 13px;
+	left: 30px;
+	outline: none;
+}
+
+section .field {
+	width: 100%;
+	height: 640px;
+	padding-top: 60px;
+}
+
+section .field2 {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+section .field_header {
+	width: 100%;
+	height: 75px;
+}
+
+section .flag, section .more {
+	width: 100px;
+	float: left;
+}
+
+section .flag img {
+	width: 90px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.07);
+}
+
+section .poster_title {
+	width: 800px;
+	text-align: center;
+	float: left;
+}
+
+section .poster_title img {
+	width: 190px;
+}
+
+section .more a {
+	text-decoration: none;
+	color: #999;
+	float: right;
+}
+
+section .more a:hover {
+	border-bottom: 1px solid #999;
+}
+
+section .poster_size {
+    display: inline-block;
+    border-radius: 7px;
+    overflow: hidden;
+	
+}
+
+section .poster {
+	width: 238px;
+	height: 455px;
+	background-color: #fff;
+	border-radius: 15px 15px 0 0;
+	border: 1px solid #e1e1e1;
+	margin-top: 50px;
+	margin-right: 13.4%;
+	display: inline-block;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+section .last_poster {
+	margin-right: 0px;
+}
+
+section .poster img {
+	position: relative;
+	right: 1px;
+	width: 240px;
+	height: 335px;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.07);
+}
+
+section .poster .poster_con {
+    width: 210px;
+    float: left;
+    padding: 9px 15px 0 15px;
+}
+
+section .poster .poster_con p:first-child {
+	font-size: 17px;
+	border-bottom: 1px solid #999;
+	padding-bottom: 7px;
+	margin-bottom: 10px;
+}
+
+section .all_btn {
+	width: 56px;
+	height: 12px;
+	margin: 24px auto;
+}
+
+section .move_btn {
+	width: 12px;
+	height: 12px;
+	border-radius: 10px;
+	float: left;
+	margin-right: 10px;
+	background-color: #999;
+}
+
+section .move_btn:nth-last-child(1) {
+	margin-right: 0;
+}
+
+#play .play_field {
+	width: 100%;
+	height: 700px;
+	margin: 0 auto;
+	background-image: url("/Nonda/resource/image/play.jpg");
+	background-position: center 180px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#play {
+	margin-top: 96px;
+}
+
+#best {
+	background-color: #e6eef8;
+}
+
+#all_poster2, #all_poster3, #all_poster5, #all_poster6, #all_poster8,
+	#all_poster9, #all_poster11, #all_poster12, #all_poster14,
+	#all_poster15 {
+	display: none;
+}
+
+#open {
+	background-color: #e6eef8;
+}
+
+#review {
+	background-color: #e6eef8;
+}
+
+#play2 {
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	background-image: url("/Nonda/resource/image/play2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#bpse0, #bpse1, #bpse2, #bpse3, #bpse4, #bpse5, #bpse6, #bpse7, #bpse8,
+#epse0, #epse1, #epse2, #epse3, #epse4, #epse5, #epse6, #epse7, #epse8,
+#opse0, #opse1, #opse2, #opse3, #opse4, #opse5, #opse6, #opse7, #opse8 {
+	margin-bottom: 5px;
+}
+
+section .slide_btn {
+	position : absolute;
+	top : 330px;
+	cursor : pointer;
+	opacity : 0.5;
+}
+
+section .slide_btn:hover {
+	opacity : 1;
+}
+
+section .pre_btn {
+	left:-80px;
+}
+
+section .next_btn {
+	right:-80px;
+}

@@ -1,0 +1,572 @@
+section{
+	width:1000px;
+	margin :0 auto;
+}
+
+
+#top-box{
+    width: 1000px;
+    height: 600px;
+    padding: 100px 50px 0 50px;
+    position: relative;
+
+}
+
+.topboxdiv{
+    padding: 0 10px 0 10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.tb2{
+    position: absolute;
+    top :100px;
+    left: 450px;
+    width: 500px;
+    
+
+}
+.infobox_1 :nth-child(1) {
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+    
+}
+.titlebox{
+    width: 360px;
+}
+.infobox_1 :nth-child(2){
+    /* display: inline-block; */
+}
+/* 2번자식 평점 */
+.infobox_1 :nth-child(2){
+    float: right;
+    /* vertical-align: middle; */
+    font-size: 30px;
+    color: #ccc;    
+	display: inline-block;
+	
+}
+
+.imgStar{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.infobox_2{
+    display: inline-block;
+    line-height: 0.8em;
+
+}
+.infobox_2 :nth-last-child(1){
+    font-size: 20px;
+    
+}
+
+
+.ifb1{
+    width: 150px;
+}
+.ifb2{
+    width: 300px;
+
+}
+
+
+
+#button-box{
+    padding: 30px 30px 30px 30px;
+}
+
+
+.imgLike{
+    margin-top: 5px;
+    width: 40px;
+    height:40px;
+    margin-left: 25px;
+}
+.imgShare{
+    margin-top: 5px;
+
+    width: 40px;
+    height:40px;
+    margin-left: 25px;
+
+}
+.imgReview{
+    margin-top: 5px;
+    
+    width: 40px;
+    height:40px;
+    margin-left: 10px;
+
+}
+
+#button-box a{
+    text-decoration: none;
+}
+
+.bookingButton{
+    float: right;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background: #0000ff;
+    color: #f0f0f0;
+    border: solid 2px  #f0f0f0;
+    cursor: pointer; 
+    outline: none;
+    /* 손가락모양 */
+}
+#bottomBox{
+    margin-top: 100px;
+   
+}
+
+.tabFixed{
+    width: 1000px;
+    border-bottom: none;
+    position: fixed;
+    top: 0px;
+    box-shadow:1px 1px #ccc;
+
+}
+
+.infoImg{
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /* text-align: center; */
+}
+
+
+ 
+
+/* 탭박스 소스 수정한것 */
+/* Style the tab */
+.tab {
+    
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:white;
+    border-bottom: none;
+    paddig-top:2px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    border: none;
+    outline: none;
+    /* cursor: pointer; */
+    padding: 14px 16px;
+    /* transition: 0.3s; */
+  }
+ 
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    /* background-color: #ccc; */
+   border: 1px solid #ccc;
+   border-bottom: none;
+   color: #0000ff;
+
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+      /* margin-top:300 px; */
+    margin-bottom: 300px;
+    /* 스크롤이 생기도록 임시로 준 마진 */
+    /* display: none; */
+    /* padding: 20px 12px 50px 12px; */
+    border:none;
+    /* overflow: auto; */
+    /* border: 1px solid #ccc; */
+    /* border-top: none; */
+  } 
+
+  #tContentdiv1,#tContentdiv2,#tContentdiv3{
+     /* padding-top: 50px; */
+
+  }
+
+  .tablinks{
+      float: left;
+      width: 332.3px;
+      
+  }
+
+#tContentdiv2{
+    /* border:solid #0000ff; */
+
+}
+/* ---별 출력 */
+.star{
+    width: 200px;
+}
+
+.star_rating{
+    width:200px;
+    background:url(/Nonda/resource/image/emptystar.png)no-repeat;
+    background-size: 200px 39px;
+}
+
+.star_rating, .star_rating span{
+    display: inline-block;
+    height: 39px;
+    overflow: hidden;
+   
+   
+}
+.star_rating span{
+    background-position: left bottom;
+    line-height: 0;
+    vertical-align: top;
+    background:url(/Nonda/resource/image/5stars.png)no-repeat;
+    background-size: 200px 39px;
+}
+
+
+
+.info_grade{
+	color :#ccc;
+	font-size:45px;
+}
+
+
+
+.gradebox{
+	padding-top:30px;
+}
+.satisReview,.unsatisReview{
+    width: 480px;
+   /*  height: 400px; */
+    display: inline-block;
+    /* border: solid 1px #ccc; */
+    padding: 50px 30px 10px 30px;
+    vertical-align: middle;
+
+
+}
+.bestRcontent{
+	margin-right: 40px;
+    height: 100px;
+}
+
+
+
+/* .tbboxR{
+    width: 980px;
+    height: 30px;
+    border:solid 1px #0000ff;
+    
+} */
+
+.profileImg{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+
+}
+.profileImg{
+    display: inline-block;
+
+}
+.userTag>p{
+    display: inline-block;
+
+}
+
+.img5Stars{
+width: 80px;
+height: 30px;
+
+vertical-align: middle;
+
+}
+.userTag>.img5Stars{
+    float: right;
+}
+
+/* ----------------------그냥 리뷰 */
+.nomalReview{
+    width:980px;
+   /*  height: 800px; */
+    /* border:solid 1px #0000ff; */
+   /*  padding: 0 12px; */
+}
+
+.review_content{
+	height:120px;
+}
+.reviewTab{
+    padding-top: 80px;
+    width: 1000px;
+    height: 50px;
+    border-bottom: solid 2px #ccc;
+    margin-bottom:30px;
+}
+
+.reviewTab>span>a{
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ccc;
+    font-size: 20px;
+}
+.userTag2{
+    float: left;
+    width: 250;
+    margin-left: 30px;
+    padding: 20px 10px;
+vertical-align: middle;
+text-align: center;
+}
+.userTag2 span{
+	text-align:left;
+}
+
+
+/* ---좋아요 버튼--- */
+
+
+.like_button{
+    border: none;
+    display: inline-block;
+    background-color: #fff;
+    outline: none;
+}
+.rlike{
+    
+    width: 30px;
+    height:30px;
+    cursor:pointer;
+}
+.like_form{
+    display: inline-block;
+}
+
+
+
+
+/* ----------리뷰 개인평점 별 출력*/
+.img5Stars{
+    width: 100px;
+}
+
+.review_star_rating{
+    width:100px;
+    background:url(/Nonda/resource/image/emptystar.png)no-repeat;
+    background-size: 100px;
+}
+
+.review_star_rating, .review_star_rating span{
+    display: inline-block;
+   /*  height: 30px; */
+    overflow: hidden;
+   
+   
+}
+.review_star_rating span{
+    background-position: left bottom;
+    line-height: 0;
+    vertical-align: top;
+    background:url(/Nonda/resource/image/5stars.png)no-repeat;
+    background-size: 100px ;
+}
+
+/* ---------------------- */
+.articleR{
+	width: inherit;
+	height: inherit;
+}
+.articleR2{
+    width: 750;
+}
+.userTag2>.pimg2>{
+    margin-left: 20px;
+}
+.articleR2{
+    float: right;
+    width: 750px;
+    padding: 30px 30px 30px 30px;
+vertical-align: middle;
+
+    
+}
+.review{
+    width: 980px;
+    overflow: auto;
+    padding-top: 30px;
+   /*  padding-bottom: 30px; */
+
+    border-bottom: solid 1px #ccc;
+}
+section p{
+    line-height: 1.8em;
+
+}
+
+
+    
+
+.articleR2>h3{
+    display: inline-block;
+    
+}
+    
+.qnabox{
+    border: solid 1px #ccc;
+    width: 974px;
+    
+}
+.popupR{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    padding: 52px 60px 60px;
+    width: 820px;
+    height: 600px;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+
+}
+.dim{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.like_modifybutton{
+    width: 700px;
+}
+.like_modifybutton>li{
+    display: inline-block;
+}
+.like_modifybutton :nth-child(2){
+    margin-right: 500px;
+}
+
+
+/* -----------문의사항 content */
+.table_container{
+    width: 930px;
+    margin: 0 auto;
+}
+.qna_container{
+    border: solid 1px #ccc;
+    margin-bottom:200px;
+}
+.page_header{
+    margin: 50px 50px 50px 50px;
+}
+li{
+    display: inline-block;
+}
+.qna_write {
+    margin-left: 700px;
+}
+.qna_need_login{
+	margin-left: 700px;
+}
+
+.popup_qna{
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    padding: 52px 60px 60px;
+    width: 820px;
+    height: 600px;
+    transform: translate(-50%,-50%);
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: #fff;
+
+}
+
+.QuestionBox_div{
+    width:700;
+    height: inherit;
+    padding: 50px 50px;
+}
+.article{
+    display: none;
+}
+.on{
+    /* display: block; */
+    /* 이새기때문에 며칠날렸다 */
+}
+
+
+/* ------------문의하기 팝업창 */
+
+
+
+.QnaLogoDiv{
+    text-align: center;
+    
+}
+.QnaTitle{
+    margin: 20px 20px;
+    width:300px;
+    height: 40px; 
+}
+.QnaArticle{
+    margin: 10px 20px;
+    width: 500px;
+    height:300px;
+}
+.QnaWritingPage__Buttons{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+/* ----------헤더 부트스트랩 적용해제 */
+#logobar, #block, #btn, #menubar,header{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    /*  color: #337ab7 !important; */
+    /* color: #23527c !important; */
+    
+}
+
+
+#menubar{
+    position: relative;
+    bottom: 10px;
+}
+#menubar li a,#logobar a{
+	color:#333;
+}
+

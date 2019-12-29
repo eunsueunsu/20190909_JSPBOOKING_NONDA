@@ -1,0 +1,405 @@
+@charset "UTF-8";
+
+body {
+    background: #fff;
+    font-family: verdana;
+}
+
+section {
+    width: 100%;
+    height: 1000px;
+    padding-top: 60px;
+    background-color: #f5f5f5;
+}
+
+div {
+    display: block;
+}
+
+.box-wrapper {
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+.first-wrapper {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+}
+
+.profile-panel {
+    width: 550px;
+    height: 100%;
+    border: 1px solid #ddd;
+    background-color: white;
+    float: left;
+}
+
+.mynonda {
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color:  #51abf3;
+}
+
+.mynonda p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.myprofile-wrapper {
+    width:350px;
+    height: 100%;
+    float: right;
+}
+
+.myprofile {
+    padding-left: 40px;
+}
+
+.username {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile_manage {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.point-panel {
+    width: 330px;
+    height: 100px;
+    border: 1px solid #ddd;
+    background-color: white;
+    float: right;
+    padding: 25px 40px;
+}
+
+/* 탭 크기 */
+#vtab>ul>li {
+    width: 200px;
+    height: 50px;
+    background-color: #fff !important;
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    padding-left: 4px;
+}
+
+/* 선택된 탭 */
+#vtab>ul>li.selected {
+    width: 197px;
+    height: 50px;
+    opacity: 1;
+    border: 1px solid #ddd;
+    border-left: 4px solid #51abf3;
+    font-weight: bold;
+    /* z-index: 10; */
+    background-color: #fafafa !important;
+    /* position: relative; */
+}
+
+#vtab>ul {
+    float: left;
+    width: 110px;
+    text-align: left;
+    /* display: block; */
+    /* margin: auto 0; */
+    padding: 0;
+    /* position: relative; */
+}
+
+#vtab>div {
+    background-color: #fafafa;
+    margin-left: 230px;
+    border: 1px solid #ddd;
+    height: 700px;
+    padding: 12px;
+    position: relative;
+    overflow: auto;
+}
+
+#vtab>ul>li.current {
+    width: 197px;
+    height: 50px;
+    opacity: 1;
+    border: 1px solid #ddd;
+    border-left: 4px solid #51abf3;
+    font-weight: bold;
+    /* z-index: 10; */
+    background-color: #fafafa !important;
+    /* position: relative; */
+}
+
+.tabs a {
+    text-decoration: none;
+    color: black;
+}
+
+.mypage-wrapper {
+    border: 1px solid gainsboro;
+    padding-top: 10px;
+    width: 80%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.mypage-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+}
+
+.mypage-btn.btn1 {
+    margin-top: 75px;
+    margin-left: 72px;
+}
+
+.mypage-btn.btn2 {
+    margin-top: 10px;
+    margin-left: 570px;
+}
+
+.sub-title {
+    /* font-weight:600; */
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.title {
+    width: 150px;
+    font-weight:600;
+    position: absolute;
+    font-size: 17px;
+    padding: 10px;
+}
+
+#tab1-1 {
+    margin-top: 200px;
+}
+
+.pwdnow-confirm {
+    /* margin-bottom: 60px; */
+    float: right;
+    margin-top: 10px;
+    /* position: absolute; */
+}
+
+#pwd-now {
+    width: 80%;
+}
+
+.input-wrapper {
+    padding-left: 170px;
+}
+
+.text-content[readonly] {
+    border:0;
+    background-color: #fafafa;
+    cursor:text;
+    width: 70%;
+    font-size: 17px;
+}
+
+.form-group {
+    width: 600px;
+    margin: 50px 50px;
+}
+
+.form-control {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.point-panel.item {
+    display:block;
+    font-weight: 500;
+    margin:7px 0;
+}
+
+.point-panel.text-md {
+    font-size: 14px;
+}
+
+.item-header {
+    display: inline-block;
+    text-align: left;
+    width:40%;
+    font-size: 15px;
+}
+
+.item-count {
+    color: #2b96ed;
+    display: block;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: right;
+    width: 60%;
+    font-size: 15px;
+    float: right;
+}
+
+.tabs li {
+    vertical-align: middle;
+}
+
+.tab-item {
+    height:30px;
+    font-size: 17px;
+    position: relative;
+    top: 10px;
+}
+
+.item {
+    padding-bottom: 20px;
+    padding-top: 11px;
+}
+
+.item a {
+    color: #2b96ed;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* 리뷰, 문의 내역 */
+.checkbox_tb{
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    display: table;
+    /* border-color: grey; */
+}
+
+.checkbox_tb a{
+    text-decoration: none;
+    color: #787878;
+}
+
+.checkbox_tb col {
+    width: 50px;
+    display: table-column;
+}
+
+.checkbox_tb colgroup {
+    display: table-column-group;
+}
+
+.checkbox_tb thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.checkbox_tb tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.checkbox_tb thead .side1 {
+    border-left: #D2D2D2 solid 1px;
+}
+.checkbox_tb thead th {
+    height: 28px;
+    border-top: #D2D2D2 solid 1px;
+    border-bottom: #D2D2D2 solid 1px;
+    font-size: 13px;
+    font-family: dotum;
+    font-weight: normal;
+    color: #787878;
+}
+
+.checkbox_tb th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.checkbox_tb tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.checkbox_tb tbody td {
+    text-align: center;
+    color: #888;
+    font-family: arial;
+    font-size: 13px;
+    height: 28px;
+    border-bottom: #E6E6E6 solid 1px;
+    letter-spacing: -1px;
+}
+
+.checkbox_tb td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.question.answer {
+    color: #51abf3
+}
+
+.edit_review {
+    cursor: pointer;
+}
+
+#tab3 .button-area {
+    padding-bottom: 10px;
+}
+
+#tab3 .button-area input {
+    border: 1px solid #c0bebe;
+    width: 45px;
+    height: 25px;
+    /* background-color: yellow; */
+}
+
+#tab4 .tab3-tb {
+    line-height: 28px;
+}
+
+#div-playAddBtn {
+    margin-bottom: 10px;
+}
+
+#playAddBtn {
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #999999;
+}
+
+/* 선택된 탭 */
+ul.tabs li.current {
+    width: 197px;
+    height: 50px;
+    opacity: 1;
+    border: 1px solid #ddd;
+    border-left: 4px solid #51abf3;
+    font-weight: bold;
+    /* z-index: 10; */
+    background-color: #fafafa !important;
+    /* position: relative; */
+}
+
+.tab-content {
+	display: none;
+}
+
+.tab-content.current {
+	display: inherit;
+}
