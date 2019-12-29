@@ -1,0 +1,137 @@
+section {
+    /* background-color: #f5f5f5; */
+}
+
+#totalbox {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#totalbox h1 {
+    font-size: 30px;
+}
+
+#searchbar {
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    /* border-bottom: 1px solid #999999; */
+}
+
+#bigblock {
+    width: 500px;
+    height: 48px;
+    padding: 5px;
+    font-size: 25px;
+    position : relative;
+    top: 21px;
+    border: 1px solid #999999;
+    outline: none;
+}
+
+#bigbtn {
+    width: 70px;
+    height: 60px;
+    position : relative;
+    top: 16px;
+    left: -5px;
+    border: 0px;
+    outline: none;
+    color: #ffffff;
+    background: #999999;
+    cursor: pointer;
+}
+
+
+/* ----------------------- */
+
+.resultbox{
+    border:1px solid #999999;
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px 5px;
+}
+.currentresult{
+    width: 950px;
+}
+
+.posterbox{
+    display: inline-block;
+}
+.posterimg{
+    height: 150px;
+    width :100px;
+}
+.resulttextbox{
+    height: inherit;
+    width: 190px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 150px; */
+    
+}
+/* .resulttextbox span{
+    line-height: 150px;
+} */
+.line{
+position: relative;
+top:30%;
+}
+
+
+
+/* -------리뷰결과단 */
+
+.stars{
+    height: 16px;
+}
+.size18{
+    font-size: 18px;
+}
+.reviewresult{
+    width: 800px; 
+    /* height: 65px; */
+    margin: 25px 0px;
+    line-height: 1.8em;
+}
+.reviewresult :last-child{
+    font-size: 15px;
+    color: #999999
+}
+
+.searchnum{
+	font-size:25px;
+}
+.resultbox{
+	display:none;
+}
+
+/* 별 출력  */
+.img5Stars{
+    width: 100px;
+}
+
+.review_star_rating{
+    width:100px;
+    background:url(/Nonda/resource/image/emptystar.png)no-repeat;
+    background-size: 100px;
+}
+
+.review_star_rating, .review_star_rating span{
+    display: inline-block;
+   /*  height: 30px; */
+    overflow: hidden;
+   
+   
+}
+.review_star_rating span{
+    background-position: left bottom;
+    line-height: 0;
+    vertical-align: top;
+    background:url(/Nonda/resource/image/5stars.png)no-repeat;
+    background-size: 100px ;
+}

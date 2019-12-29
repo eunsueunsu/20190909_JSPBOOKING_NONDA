@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+section {
+	width: 100%;
+	height: 711px;
+	padding-top: 175px;
+	background-color: #f5f5f5;
+}
+
+#loginbox {
+	width: 500px;
+	height: 445px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 90px;
+	background-color: #ffffff;
+	border: 1px solid #e2e2e2;
+}
+
+#loginbox h1 {
+	margin-bottom: 30px;
+	font-size: 33px;
+}
+
+#loginbox form button {
+	display: block;
+	width: 310px;
+	height: 60px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	background-color: #0000ff;
+	color: #ffffff;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	font-size: 17px;
+}
+
+#mid {
+	width: 288px;
+	height: 48px;
+	padding-left: 20px;
+	border: 1px solid #dbdbdb;
+	outline: none;
+	cursor: pointer;
+}
+
+#mpw {
+	width: 288px;
+	height: 48px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border: 1px solid #dbdbdb;
+	outline: none;
+	cursor: pointer;
+}
+
+#googlelogin {
+	width: 150px;
+	height: 60px;
+	margin: 0 auto;
+	cursor: pointer;
+	outline: none;
+	vertical-align: bottom;
+}
+
+#naverlogin {
+	width: 160px;
+	height: 55px;
+	margin: 0 auto;
+	cursor: pointer;
+	outline: none;
+}
+
+#joinbox {
+	width: 310px;
+	margin: 0 auto;
+	margin-top: 15px;
+	position: relative;
+}
+
+#joinbox p {
+	padding: 0 8px 0 8px;
+	float: right;
+}
+
+#joinbox a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#joinbox p:nth-child(1) {
+	padding-right: 0;
+}
+
+#joinbox p:nth-child(2) {
+	border-right: 1px solid #dbdbdb;
+	font-weight: bold;
+}
+
+.bubble {
+	display: none;
+	top: 35px;
+	left: 75px;
+	padding: 10px 10px 10px 10px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: #7F7F7F solid 1px;
+	position: absolute;
+	font-size: 13px;
+	text-align: left;
+}
+
+.bubble:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0px 20px 18px 20px;
+	border-color: #FFFFFF transparent;
+	display: block;
+	width: 0;
+	top: -16.5px;
+	left: 55px;
+}
+
+.bubble:before {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 0px 20px 18px 20px;
+	border-color: #7F7F7F transparent;
+	display: block;
+	width: 0;
+	top: -18px;
+	left: 55px;
+}
+
+#join:hover+span.bubble {
+	display: block;
+}
