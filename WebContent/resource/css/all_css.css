@@ -1,0 +1,49 @@
+section {
+    background-color: #f5f5f5;
+}
+
+#allbox {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.titlebox {
+    width: 1000px;
+    height: 70px;
+    padding-top: 30px;
+}
+
+.titlebox label {
+    position: relative;
+    top: -3px;
+    color: #999999;
+}
+
+.titlebox label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.more {
+    margin-right: 10px;
+    float: right;
+}
+
+.contentbox {
+    display: inline-block;
+    width: 1000px;
+    height: 270px;
+    text-align: center;
+    /* background-color: blueviolet; */
+}
+
+.contentbox img {
+    width: 170px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.contentbox img:nth-last-child(1) {
+    margin-right: 0px;
+}
