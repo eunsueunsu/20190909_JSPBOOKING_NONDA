@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: '고딕';
+	font-size: 13px;
+	color: #333333;
+}
+
+section {
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f5f5f5;
+}
+
+div {
+	display: block;
+}
+
+.panel-body {
+	position: relative;
+}
+
+#div_logo {
+	width: 250px;
+	padding-bottom: 40px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#logo {
+	width: 250px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.member-panel {
+	width: 480px;
+	height: 1150px;
+	padding: 48px;
+	padding-top: 50px;
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	margin: 0 auto;
+}
+
+.sub-title {
+	font-size: 14px;
+	margin-bottom: 8px;
+}
+
+.member-panel input {
+	width: 460px;
+	height: 48px;
+	display: block;
+	margin: 0 auto;
+	padding-left: 20px;
+	border: 1px solid #dbdbdb;
+	font-size: 14px;
+}
+
+#useremail1 {
+	width: 27%;
+	margin: 0;
+	float: left;
+}
+
+#useremail2 {
+	width: 27%;
+	float: left;
+}
+
+select {
+	height: 50px;
+	width: 128px;
+	border: 1px solid #dbdbdb;
+	margin-left: 10px;
+	font-size: 14px;
+}
+
+#at_sign {
+	font-size: 15px;
+	float: left;
+	padding: 12px 10px 20px 14px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+.form-control {
+	display: block;
+	width: 100%
+}
+
+.age-group .member-type {
+	font-size: 14px;
+	padding-bottom: 40px;
+}
+
+.member-type {
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.age-title {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.member-type-title {
+	padding-bottom: 10px;
+}
+
+.age-group input, .member-type input {
+	width: 30px;
+	height: 20px;
+	margin-right: 10px;
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.age-group p, .member-type p {
+	font-size: 14px;
+	line-height: 20px;
+	display: inline;
+	padding-right: 43px;
+	vertical-align: middle;
+}
+
+.form-control.age-control {
+	display: table-cell;
+}
+
+.signupbtn {
+	padding-top: 30px;
+}
+
+#signup {
+	cursor: pointer;
+	width: 480px;
+	outline: none;
+}
+
+.join_agree-term {
+	margin: 7px auto 0;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.join__terms-box {
+	display: none;
+	overflow: auto;
+	height: 140px;
+	padding: 10px;
+	margin: 18px auto 0;
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+}
+
+.join-table__head, .join-table__cell {
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	border-width: 0 1px 1px 0;
+}
+
+.join-table {
+	border: 1px solid #ddd;
+}
+
+.warning {
+	padding-top: 3px;
+}
+
+.warning label {
+	color: #ff8d7c;
+}

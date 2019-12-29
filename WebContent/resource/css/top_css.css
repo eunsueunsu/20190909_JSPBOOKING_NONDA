@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#top {
+	position: fixed;
+	bottom: 30px;
+	right: 150px;
+}
+
+#top img {
+	width: 50px;
+}
